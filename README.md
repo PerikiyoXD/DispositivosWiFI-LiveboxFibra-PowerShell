@@ -5,3 +5,14 @@ Script que muestra los dispositivos WiFi conectados. Simplemente se autentica al
 Con este Script he aprendido que los arrays de 1 solo elemento se "aplanan/flatten" y hay que usar `,$variable` para que devuelva el array.
 
 Odio PowerShell pero va bien 👍
+
+(Me tomo la molestia de censurar la imagen pero es bastante obvio que la dirección del router es `192.168.1.1`)
+
+Es importante que si vas a usarlo (¿De verdad es necesario?) ajustes el usuario y la contraseña de la petición de autenticación.
+
+Por pereza pura cada vez que quieras refrescar genera una nueva petición a autenticarse. 
+No sé si se bloquea al realizar tantas peticiones pero entiendo que va bien.
+
+Cada dia se aprende algo. Con esto podría hacer un ServiceProvider especifico para manejar routers desde un punto centralizado usando Laravel o algo así.
+
+Las posibilidades son infinitas.
